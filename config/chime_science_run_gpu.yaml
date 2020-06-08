@@ -1013,7 +1013,6 @@ frb:
     kotekan_stage: frbNetworkProcess
     in_buf: frb_output_buffer
     udp_frb_port_number: 1313
-    number_of_nodes: 256
     packets_per_stream: 8
     number_of_subnets: 4
     #column_mode: true
@@ -1336,7 +1335,6 @@ pulsar:
     kotekan_stage: pulsarNetworkProcess
     pulsar_out_buf: pulsar_output_buffer
     udp_pulsar_port_number: 1414
-    number_of_nodes: 256
     number_of_subnets: 2
     pulsar_node_ips:
       - 10.15.50.10

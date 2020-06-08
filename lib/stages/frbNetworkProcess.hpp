@@ -47,7 +47,6 @@
  *
  * @conf   udp_frb_packet_size  Int (default 4264). packet size including header
  * @conf   udp_frb_port_number  Int (default 1313). udp Port number for frb streams
- * @conf   number_of_nodes      Int (default 256). Number of L0 nodes
  * @conf   number_of_subnets    Int (default 4). Number of subnets or VLANS used for transmission of
  * FRB data
  * @conf   packets_per_stream   Int (default 8). Number of packets for each stream within each frame
@@ -147,9 +146,6 @@ private:
 
     /// port number
     int udp_frb_port_number;
-
-    /// number of L0 nodes
-    int number_of_nodes;
 
     /// number of VLANS
     int number_of_subnets;

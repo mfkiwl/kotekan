@@ -32,7 +32,6 @@
  *
  * @conf   udp_pulsar_packet_size  Int (default 6288). packet size including header
  * @conf   udp_pulsar_port_number  Int (default 1414). udp Port number for pulsar streams
- * @conf   number_of_nodes      Int (default 256). Number of L0 nodes
  * @conf   number_of_subnets    Int (default 2). Number of subnets or VLANS used for transmission of
  *PULSAR data
  * @conf   my_node_id           Int (parsed from the hostname) esimated from the location of node
@@ -71,9 +70,6 @@ private:
 
     /// node ip addresses
     char** my_ip_address;
-
-    /// number of L0 nodes
-    int number_of_nodes;
 
     /// number of pulsar VLANS
     int number_of_subnets;

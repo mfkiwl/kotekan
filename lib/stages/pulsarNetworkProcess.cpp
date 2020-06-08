@@ -47,7 +47,6 @@ pulsarNetworkProcess::pulsarNetworkProcess(Config& config_, const std::string& u
     // Apply config.
     udp_pulsar_packet_size = config.get<int>(unique_name, "udp_pulsar_packet_size");
     udp_pulsar_port_number = config.get<int>(unique_name, "udp_pulsar_port_number");
-    number_of_nodes = config.get<int>(unique_name, "number_of_nodes");
     number_of_subnets = config.get<int>(unique_name, "number_of_subnets");
     timesamples_per_pulsar_packet =
         config.get_default<int>(unique_name, "timesamples_per_pulsar_packet", 625);
