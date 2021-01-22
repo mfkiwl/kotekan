@@ -47,6 +47,7 @@ add_library(
     bufferSwitch.cpp
     bufferDelay.cpp
     InputSubset.cpp
+    mergeRawBuffer.cpp
     # RFI Pipeline Processes
     rfiVDIF.cpp
     rfiAVXVDIF.cpp
