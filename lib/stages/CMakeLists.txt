@@ -37,7 +37,6 @@ add_library(
     VisWriter.cpp
     HFBWriter.cpp
     RawReader.cpp
-    #mergedRawFileRead.cpp
     splitMergedBeamBuffer.cpp
     VisRawReader.cpp
     HFBRawReader.cpp
@@ -49,7 +48,7 @@ add_library(
     bufferSwitch.cpp
     bufferDelay.cpp
     InputSubset.cpp
-    mergeRawBuffer.cpp
+    mergeBeamBuffer.cpp
     # RFI Pipeline Processes
     rfiVDIF.cpp
     rfiAVXVDIF.cpp
